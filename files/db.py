@@ -2,7 +2,7 @@ import psycopg2
 from os import getenv
 from dotenv import load_dotenv
 
-load_dotenv("/home/ozodbek/PycharmProjects/To_do/.env")
+load_dotenv()
 
 class Database:
     def __init__(self):
